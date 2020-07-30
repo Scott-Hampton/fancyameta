@@ -21,14 +21,6 @@
 		<img src="images/abstract_guitar.jpg" alt="abstract guitar" width="200" height="200">
 		<br>
 	
-		<script> 
-$(Image).ready(function(){
-  $("#flip").click(function(){
-    $("#panel").slideDown("fast");
-  });
-});
-</script>
-	
 	<nav>
 		
 		<a href="articlehomepage.html">Homepage for Articles</a>
@@ -38,6 +30,16 @@ $(Image).ready(function(){
 		<a href="navigation.html">Navigation Page</a>
 		
 	</nav>
+			
+			<script>
+$(document).ready(function(){
+  $("p").click(function(){
+    $(this).hide();
+  });
+});
+	</script>
+	
+	<p>We enjoy your visitation and company!</p>
 	
 	<p id="footer">
 		Webpage Creator: Scott Hampton <br>
